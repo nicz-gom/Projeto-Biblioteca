@@ -54,3 +54,4 @@ application.properties
 # Arquivos do Sistema Operacional
 .DS_Store
 Thumbs.db
+/Projeto-Biblioteca/nbproject/private/
