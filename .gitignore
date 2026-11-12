@@ -22,3 +22,35 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# --- Adições para o projeto Java + JDBC (MySQL) ---
+
+# Pastas de build (Maven / Gradle / Padrão)
+target/
+build/
+out/
+bin/
+
+# Arquivos de IDEs (IntelliJ, Eclipse, VS Code, NetBeans)
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+nbproject/private/
+
+# Segurança e Credenciais do MySQL (JDBC)
+.env
+db.properties
+application.properties
+
+# Permite subir apenas os arquivos de exemplo das configurações
+!db.properties.example
+!application.properties.example
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
